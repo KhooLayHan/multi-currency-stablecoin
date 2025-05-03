@@ -13,8 +13,14 @@ no-entrypoint = []
 no-idl = []
 no-log-ix-name = []
 cpi = ["no-entrypoint"]
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
 default = []
 
 [dependencies]
-anchor-lang = "0.30.0"
-anchor-spl = "0.31.1"
+# anchor-version = "0.31.0"
+anchor-lang = { version = "0.31.0", features = ["init-if-needed"] }
+anchor-spl = "0.31.0"
+# solana-program = "2.1.0"
+
+# [toolchain]
+# anchor
