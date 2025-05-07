@@ -21,6 +21,8 @@ default = []
 anchor-lang = { version = "0.31.0", features = ["init-if-needed"] }
 anchor-spl = "0.31.0"
 # solana-program = "2.1.0"
+wormhole-sdk = "0.1.0"
+solana-program = "1.17.0"
 
 # [toolchain]
 # anchor

@@ -4,7 +4,10 @@
         "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
     },
     "dependencies": {
-        "@coral-xyz/anchor": "0.31.0"
+        "@coral-xyz/anchor": "0.31.0",
+        "@wormhole-foundation/sdk": "^1.17.0",
+        "dotenv": "^16.5.0",
+        "tsx": "^4.19.4"
     },
     "devDependencies": {
         "@types/bn.js": "^5.1.0",
